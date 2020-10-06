@@ -17,6 +17,8 @@ def nao_entre_em_panico():
         if primo:
             primos += "," + str(num)
             cont += 1
+            if(cont % 10 == 0):
+                primos = primos + '<br>'
         num += 1
         primo = True
 
