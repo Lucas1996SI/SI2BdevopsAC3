@@ -14,7 +14,7 @@ def nao_entre_em_panico():
 
     while c < a:
         primo = 1
-        for i in range(2, d):
+        for i in range(2, n):
             if n % i == 0:
                 primo = 0
                 break
@@ -23,6 +23,7 @@ def nao_entre_em_panico():
             c += 1
             if(c % 10 == 0):
                 pr = pr + '<br>'
+        n += 1
     return pr
 
 if __name__ == '__main__':
